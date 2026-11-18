@@ -1,0 +1,14 @@
+C:\Users\467595\Downloads\trabalhofinal\GerenciadorDeTarefas\bin\Debug\net10.0\GerenciadorDeTarefas.exe
+C:\Users\467595\Downloads\trabalhofinal\GerenciadorDeTarefas\bin\Debug\net10.0\GerenciadorDeTarefas.deps.json
+C:\Users\467595\Downloads\trabalhofinal\GerenciadorDeTarefas\bin\Debug\net10.0\GerenciadorDeTarefas.runtimeconfig.json
+C:\Users\467595\Downloads\trabalhofinal\GerenciadorDeTarefas\bin\Debug\net10.0\GerenciadorDeTarefas.dll
+C:\Users\467595\Downloads\trabalhofinal\GerenciadorDeTarefas\bin\Debug\net10.0\GerenciadorDeTarefas.pdb
+C:\Users\467595\Downloads\trabalhofinal\GerenciadorDeTarefas\obj\Debug\net10.0\GerenciadorDeTarefas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\467595\Downloads\trabalhofinal\GerenciadorDeTarefas\obj\Debug\net10.0\GerenciadorDeTarefas.AssemblyInfoInputs.cache
+C:\Users\467595\Downloads\trabalhofinal\GerenciadorDeTarefas\obj\Debug\net10.0\GerenciadorDeTarefas.AssemblyInfo.cs
+C:\Users\467595\Downloads\trabalhofinal\GerenciadorDeTarefas\obj\Debug\net10.0\GerenciadorDeTarefas.csproj.CoreCompileInputs.cache
+C:\Users\467595\Downloads\trabalhofinal\GerenciadorDeTarefas\obj\Debug\net10.0\GerenciadorDeTarefas.dll
+C:\Users\467595\Downloads\trabalhofinal\GerenciadorDeTarefas\obj\Debug\net10.0\refint\GerenciadorDeTarefas.dll
+C:\Users\467595\Downloads\trabalhofinal\GerenciadorDeTarefas\obj\Debug\net10.0\GerenciadorDeTarefas.pdb
+C:\Users\467595\Downloads\trabalhofinal\GerenciadorDeTarefas\obj\Debug\net10.0\GerenciadorDeTarefas.genruntimeconfig.cache
+C:\Users\467595\Downloads\trabalhofinal\GerenciadorDeTarefas\obj\Debug\net10.0\ref\GerenciadorDeTarefas.dll
