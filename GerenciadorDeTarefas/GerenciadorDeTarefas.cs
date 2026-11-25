@@ -4,31 +4,31 @@ namespace GerenciadorDeTarefas
 {
     public class GerenciadorTarefas
     {
-        private int _contadorId = 0;
-        private readonly List<Tarefa> _tarefas;
-        private readonly Stack<int> _historicoConcluidas;
+        private int contadorId = 0;
+        private readonly List<Tarefa> tarefas;
+        private readonly Stack<int> historicoConcluidas;
 
         public GerenciadorTarefas()
         {
-            _tarefas = new List<Tarefa>();
-            _historicoConcluidas = new Stack<int>();
+            this.tarefas = new List<Tarefa>();
+            this.historicoConcluidas = new Stack<int>();
         }
 
         public Tarefa CadastrarTarefa(string descricao)
         {
-            Tarefa novaTarefa = new Tarefa(++_contadorId, descricao);
-            _tarefas.Add(novaTarefa);
+            Tarefa novaTarefa = new Tarefa(++this.contadorId, descricao);
+            this.tarefas.Add(novaTarefa);
             return novaTarefa;
         }
 
         public List<Tarefa> ListarTarefas()
         {
-            return _tarefas;
+            return this.tarefas;
         }
 
         public Tarefa BuscarTarefa(int id)
         {
-            foreach (Tarefa tarefa in _tarefas)
+            foreach (Tarefa tarefa in this.tarefas)
             {
                 if (tarefa.Id == id)
                 {
@@ -55,20 +55,20 @@ namespace GerenciadorDeTarefas
             }
 
             tarefa.Situacao = SituacaoTarefaEnum.CONCLUIDA;
-            _historicoConcluidas.Push(tarefa.Id);
+            this.historicoConcluidas.Push(tarefa.Id);
             mensagem = $"Sucesso: Tarefa #{id} marcada como concluída.";
             return true;
         }
 
         public bool DesfazerUltimaConclusao(out string mensagem)
         {
-            if (_historicoConcluidas.Count == 0)
+            if (this.historicoConcluidas.Count == 0)
             {
                 mensagem = "Aviso: Não há nenhuma conclusão registrada na pilha para desfazer.";
                 return false;
             }
 
-            int ultimoIdConcluido = _historicoConcluidas.Pop();
+            int ultimoIdConcluido = this.historicoConcluidas.Pop();
             Tarefa tarefa = BuscarTarefa(ultimoIdConcluido);
 
             if (tarefa != null)
