@@ -55,9 +55,6 @@ namespace GerenciadorDeTarefas
 
         private static void ExibirMenu()
         {
-            Console.WriteLine("\n==========================================");
-            Console.WriteLine("      GERENCIADOR DE TAREFAS (C#)         ");
-            Console.WriteLine("==========================================");
             Console.WriteLine("1 - Cadastrar tarefa");
             Console.WriteLine("2 - Listar tarefas");
             Console.WriteLine("3 - Buscar tarefa");
